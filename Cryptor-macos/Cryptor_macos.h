@@ -1,18 +1,18 @@
 //
-//  Cryptor_macos.h
-//  Cryptor-macos
+//  Cryptor_macOS.h
+//  Cryptor-macOS
 //
 //  Created by Ken Carroll on 22/11/2020.
 //
 
 #import <Foundation/Foundation.h>
 
-//! Project version number for Cryptor_macos.
-FOUNDATION_EXPORT double Cryptor_macosVersionNumber;
+//! Project version number for Cryptor_macOS.
+FOUNDATION_EXPORT double Cryptor_macOSVersionNumber;
 
-//! Project version string for Cryptor_macos.
-FOUNDATION_EXPORT const unsigned char Cryptor_macosVersionString[];
+//! Project version string for Cryptor_macOS.
+FOUNDATION_EXPORT const unsigned char Cryptor_macOSVersionString[];
 
-// In this header, you should import all the public headers of your framework using statements like #import <Cryptor_macos/PublicHeader.h>
+// In this header, you should import all the public headers of your framework using statements like #import <Cryptor_macOS/PublicHeader.h>
 
 
