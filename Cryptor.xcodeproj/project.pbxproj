@@ -22,7 +22,18 @@
 		8C97EE201EBF76F0000E795B /* Updatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_Sources/Updateable.swift /* Updatable.swift */; };
 		8C97EE211EBF76F0000E795B /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_Sources/Utilities.swift /* Utilities.swift */; };
 		8CF04E2A1D4FCECC00C27814 /* CryptorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C9590241CC807D400A2C2B4 /* CryptorTests.swift */; };
-		BE3CBEF7256AFD6F00DEA081 /* Cryptor_macOS.h in Headers */ = {isa = PBXBuildFile; fileRef = BE3CBEF5256AFD6F00DEA081 /* Cryptor_macOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BE3CBFA2256BC97A00DEA081 /* Cryptor_macOS.h in Headers */ = {isa = PBXBuildFile; fileRef = BE3CBFA0256BC97A00DEA081 /* Cryptor_macOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BE3CBFAA256BC99100DEA081 /* Crypto.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_Sources/Crypto.swift /* Crypto.swift */; };
+		BE3CBFAB256BC99100DEA081 /* Cryptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_Sources/Cryptor.swift /* Cryptor.swift */; };
+		BE3CBFAC256BC99100DEA081 /* Digest.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_Sources/Digest.swift /* Digest.swift */; };
+		BE3CBFAD256BC99100DEA081 /* HMAC.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_Sources/HMAC.swift /* HMAC.swift */; };
+		BE3CBFAE256BC99100DEA081 /* KeyDerivation.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_Sources/KeyDerivation.swift /* KeyDerivation.swift */; };
+		BE3CBFAF256BC99100DEA081 /* Random.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_Sources/Random.swift /* Random.swift */; };
+		BE3CBFB0256BC99100DEA081 /* SSLPointerTricks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C7111ED2195B09A003CF4B3 /* SSLPointerTricks.swift */; };
+		BE3CBFB1256BC99100DEA081 /* Status.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_Sources/Status.swift /* Status.swift */; };
+		BE3CBFB2256BC99100DEA081 /* StreamCryptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_Sources/StreamCryptor.swift /* StreamCryptor.swift */; };
+		BE3CBFB3256BC99100DEA081 /* Updatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_Sources/Updateable.swift /* Updatable.swift */; };
+		BE3CBFB4256BC99100DEA081 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_Sources/Utilities.swift /* Utilities.swift */; };
 		__src_cc_ref_Sources/Crypto.swift /* Crypto.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_Sources/Crypto.swift /* Crypto.swift */; };
 		__src_cc_ref_Sources/Cryptor.swift /* Cryptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_Sources/Cryptor.swift /* Cryptor.swift */; };
 		__src_cc_ref_Sources/Digest.swift /* Digest.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_Sources/Digest.swift /* Digest.swift */; };
@@ -56,11 +67,9 @@
 		8C9C42F01CD7881000045CFB /* LinuxMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LinuxMain.swift; path = Tests/LinuxMain.swift; sourceTree = "<group>"; };
 		8CD16C6C1CC81DE5007296B5 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		8CD16C6D1CC81DE5007296B5 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		BE3CBE4C256A9C9F00DEA081 /* Cryptor_macos.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Cryptor_macos.h; sourceTree = "<group>"; };
-		BE3CBE4D256A9C9F00DEA081 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BE3CBEF3256AFD6F00DEA081 /* Cryptor_macOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Cryptor_macOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BE3CBEF5256AFD6F00DEA081 /* Cryptor_macOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Cryptor_macOS.h; sourceTree = "<group>"; };
-		BE3CBEF6256AFD6F00DEA081 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE3CBF9E256BC97A00DEA081 /* Cryptor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Cryptor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE3CBFA0256BC97A00DEA081 /* Cryptor_macOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Cryptor_macOS.h; sourceTree = "<group>"; };
+		BE3CBFA1256BC97A00DEA081 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		__PBXFileRef_Package.swift /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 		__PBXFileRef_Sources/Crypto.swift /* Crypto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Crypto.swift; path = Sources/Cryptor/Crypto.swift; sourceTree = "<group>"; };
 		__PBXFileRef_Sources/Cryptor.swift /* Cryptor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Cryptor.swift; path = Sources/Cryptor/Cryptor.swift; sourceTree = "<group>"; };
@@ -91,7 +100,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BE3CBEF0256AFD6F00DEA081 /* Frameworks */ = {
+		BE3CBF9B256BC97A00DEA081 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -134,22 +143,13 @@
 			name = CryptorTests;
 			sourceTree = "<group>";
 		};
-		BE3CBE4B256A9C9F00DEA081 /* Cryptor-macos */ = {
+		BE3CBF9F256BC97A00DEA081 /* Cryptor_macOS */ = {
 			isa = PBXGroup;
 			children = (
-				BE3CBE4C256A9C9F00DEA081 /* Cryptor_macos.h */,
-				BE3CBE4D256A9C9F00DEA081 /* Info.plist */,
+				BE3CBFA0256BC97A00DEA081 /* Cryptor_macOS.h */,
+				BE3CBFA1256BC97A00DEA081 /* Info.plist */,
 			);
-			path = "Cryptor-macos";
-			sourceTree = "<group>";
-		};
-		BE3CBEF4256AFD6F00DEA081 /* Cryptor-macOS */ = {
-			isa = PBXGroup;
-			children = (
-				BE3CBEF5256AFD6F00DEA081 /* Cryptor_macOS.h */,
-				BE3CBEF6256AFD6F00DEA081 /* Info.plist */,
-			);
-			path = "Cryptor-macOS";
+			path = Cryptor_macOS;
 			sourceTree = "<group>";
 		};
 		Dependencies_ /* Dependencies */ = {
@@ -170,8 +170,7 @@
 				8C9590261CC807EA00A2C2B4 /* Tests */,
 				Dependencies_ /* Dependencies */,
 				8C97EE101EBF75DD000E795B /* Cryptor-iOS */,
-				BE3CBE4B256A9C9F00DEA081 /* Cryptor-macos */,
-				BE3CBEF4256AFD6F00DEA081 /* Cryptor-macOS */,
+				BE3CBF9F256BC97A00DEA081 /* Cryptor_macOS */,
 				"____Products_" /* Products */,
 			);
 			sourceTree = "<group>";
@@ -182,7 +181,7 @@
 				"_____Product_Cryptor" /* libCryptor.dylib */,
 				8C95902B1CC80A2300A2C2B4 /* CryptorTests.xctest */,
 				8C97EE0F1EBF75DD000E795B /* Cryptor.framework */,
-				BE3CBEF3256AFD6F00DEA081 /* Cryptor_macOS.framework */,
+				BE3CBF9E256BC97A00DEA081 /* Cryptor.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -216,11 +215,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BE3CBEEE256AFD6F00DEA081 /* Headers */ = {
+		BE3CBF99256BC97A00DEA081 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BE3CBEF7256AFD6F00DEA081 /* Cryptor_macOS.h in Headers */,
+				BE3CBFA2256BC97A00DEA081 /* Cryptor_macOS.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,22 +263,22 @@
 			productReference = 8C97EE0F1EBF75DD000E795B /* Cryptor.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		BE3CBEF2256AFD6F00DEA081 /* Cryptor-macOS */ = {
+		BE3CBF9D256BC97A00DEA081 /* Cryptor_macOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BE3CBEF8256AFD6F00DEA081 /* Build configuration list for PBXNativeTarget "Cryptor-macOS" */;
+			buildConfigurationList = BE3CBFA3256BC97A00DEA081 /* Build configuration list for PBXNativeTarget "Cryptor_macOS" */;
 			buildPhases = (
-				BE3CBEEE256AFD6F00DEA081 /* Headers */,
-				BE3CBEEF256AFD6F00DEA081 /* Sources */,
-				BE3CBEF0256AFD6F00DEA081 /* Frameworks */,
-				BE3CBEF1256AFD6F00DEA081 /* Resources */,
+				BE3CBF99256BC97A00DEA081 /* Headers */,
+				BE3CBF9A256BC97A00DEA081 /* Sources */,
+				BE3CBF9B256BC97A00DEA081 /* Frameworks */,
+				BE3CBF9C256BC97A00DEA081 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Cryptor-macOS";
-			productName = "Cryptor-macOS";
-			productReference = BE3CBEF3256AFD6F00DEA081 /* Cryptor_macOS.framework */;
+			name = Cryptor_macOS;
+			productName = Cryptor_macOS;
+			productReference = BE3CBF9E256BC97A00DEA081 /* Cryptor.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		"______Target_Cryptor" /* Cryptor */ = {
@@ -317,7 +316,7 @@
 						LastSwiftMigration = 1000;
 						ProvisioningStyle = Automatic;
 					};
-					BE3CBEF2256AFD6F00DEA081 = {
+					BE3CBF9D256BC97A00DEA081 = {
 						CreatedOnToolsVersion = 12.2;
 						ProvisioningStyle = Manual;
 					};
@@ -342,7 +341,7 @@
 				"______Target_Cryptor" /* Cryptor */,
 				8C95902A1CC80A2300A2C2B4 /* CryptorTests */,
 				8C97EE0E1EBF75DD000E795B /* Cryptor-iOS */,
-				BE3CBEF2256AFD6F00DEA081 /* Cryptor-macOS */,
+				BE3CBF9D256BC97A00DEA081 /* Cryptor_macOS */,
 			);
 		};
 /* End PBXProject section */
@@ -362,7 +361,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BE3CBEF1256AFD6F00DEA081 /* Resources */ = {
+		BE3CBF9C256BC97A00DEA081 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -427,10 +426,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BE3CBEEF256AFD6F00DEA081 /* Sources */ = {
+		BE3CBF9A256BC97A00DEA081 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE3CBFAA256BC99100DEA081 /* Crypto.swift in Sources */,
+				BE3CBFAB256BC99100DEA081 /* Cryptor.swift in Sources */,
+				BE3CBFAC256BC99100DEA081 /* Digest.swift in Sources */,
+				BE3CBFAD256BC99100DEA081 /* HMAC.swift in Sources */,
+				BE3CBFAE256BC99100DEA081 /* KeyDerivation.swift in Sources */,
+				BE3CBFAF256BC99100DEA081 /* Random.swift in Sources */,
+				BE3CBFB0256BC99100DEA081 /* SSLPointerTricks.swift in Sources */,
+				BE3CBFB1256BC99100DEA081 /* Status.swift in Sources */,
+				BE3CBFB2256BC99100DEA081 /* StreamCryptor.swift in Sources */,
+				BE3CBFB3256BC99100DEA081 /* Updatable.swift in Sources */,
+				BE3CBFB4256BC99100DEA081 /* Utilities.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -663,7 +673,7 @@
 			};
 			name = Release;
 		};
-		BE3CBEF9256AFD6F00DEA081 /* Debug */ = {
+		BE3CBFA4256BC97A00DEA081 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -698,26 +708,26 @@
 				);
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				INFOPLIST_FILE = "Cryptor-macOS/Info.plist";
+				INFOPLIST_FILE = Cryptor_macOS/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_DYLIB_INSTALL_NAME = "$(DYLIB_INSTALL_NAME_BASE:standardizepath)/Cryptor";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.atmospheremedia.Cryptor-macOS";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_MODULE_NAME = Cryptor;
+				PRODUCT_NAME = Cryptor;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		BE3CBEFA256AFD6F00DEA081 /* Release */ = {
+		BE3CBFA5256BC97A00DEA081 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -747,18 +757,19 @@
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				INFOPLIST_FILE = "Cryptor-macOS/Info.plist";
+				INFOPLIST_FILE = Cryptor_macOS/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_DYLIB_INSTALL_NAME = "$(DYLIB_INSTALL_NAME_BASE:standardizepath)/Cryptor";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.atmospheremedia.Cryptor-macOS";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_MODULE_NAME = Cryptor;
+				PRODUCT_NAME = Cryptor;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -906,11 +917,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		BE3CBEF8256AFD6F00DEA081 /* Build configuration list for PBXNativeTarget "Cryptor-macOS" */ = {
+		BE3CBFA3256BC97A00DEA081 /* Build configuration list for PBXNativeTarget "Cryptor_macOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BE3CBEF9256AFD6F00DEA081 /* Debug */,
-				BE3CBEFA256AFD6F00DEA081 /* Release */,
+				BE3CBFA4256BC97A00DEA081 /* Debug */,
+				BE3CBFA5256BC97A00DEA081 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;

@@ -1,8 +1,8 @@
 //
 //  Cryptor_macOS.h
-//  Cryptor-macOS
+//  Cryptor_macOS
 //
-//  Created by Ken Carroll on 22/11/2020.
+//  Created by Ken Carroll on 23/11/2020.
 //
 
 #import <Foundation/Foundation.h>
